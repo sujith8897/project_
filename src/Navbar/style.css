@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #161f2c;
+    color: white;
+    display: flex;
+    height: 80px;    
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.btn {
+    height: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 0px 10px;
+    color: white;
+    text-align: center;
+    background-color: #ee2550;
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    right: 0;
+}
+
+@media screen and (max-width: 700px) {
+
+    .navbar {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        display: none;
+    }
+}
